@@ -16,8 +16,8 @@ import java.util.Scanner;
 public class MainSepedaMotor {
     Scanner sc = new Scanner(System.in);
     SepedaMotor[]spdmtr = new SepedaMotor[4];
-   
-    static void pemilihan(){
+    
+    public static void main(String[] args) {
         System.out.println(" ___________________________");
         System.out.println("|     DAFTAR PEMILIHAN      |");
         System.out.println("|___________________________|");
@@ -27,5 +27,6 @@ public class MainSepedaMotor {
         spdmtr[2]= new SepedaMotor("~~~~DUCATI~~~~");
         spdmtr[3]= new SepedaMotor("~~~~SUZUKI~~~~");
     
-        
-}}
+    }
+    
+}
