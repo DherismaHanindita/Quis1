@@ -32,12 +32,22 @@ public class SepedaMotor {
         this.kontakMotor = kontak;        
     }
     
-    void tambahKecepatanMotor(int kec){
-        this.kecepatanMotor = kec;
+    void tambahKecepatanMotor(int tambah){
+        if (kecepatanMotor == 100) {
+            System.out.println("~~~~~~~~~~~~~~~~~~~~~");
+            System.out.println("KECEPATAN MAKSIMAL MOTOR = 100Km");
+        }else{
+            this.kecepatanMotor += tambah;
+        }
     }
     
-    void kurangikecepatanmotor(int kec){
-        this.kecepatanMotor = kec;
+    void kurangikecepatanmotor(int kurang){
+        if (kecepatanMotor==0) {
+            System.out.println("~~~~~~~~~~~~~~~~~~~~~");
+            System.out.println("KECEPATAN MINIMAL MOTOR = 0 Km");
+        }else{
+        this.kecepatanMotor -= kurang;
+    }
     }
     
     void info(){
