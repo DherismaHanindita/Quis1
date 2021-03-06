@@ -21,7 +21,6 @@ public class MainSepedaMotor {
         System.out.println(" ___________________________");
         System.out.println("|     DAFTAR PEMILIHAN      |");
         System.out.println("|___________________________|");
-        SepedaMotor[]spd = new SepedaMotor[4];
         SepedaMotor[]spdmtr = new SepedaMotor[4];
         spdmtr[0]= new SepedaMotor("~~~~HONDA~~~~");
         spdmtr[1]= new SepedaMotor("~~~~YAMAHA~~~~");
@@ -29,4 +28,4 @@ public class MainSepedaMotor {
         spdmtr[3]= new SepedaMotor("~~~~SUZUKI~~~~");
     
         
-}
+}}
